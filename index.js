@@ -13,5 +13,5 @@ app.use("/users", usersRoutes);
 app.get("/", (req, res) => res.send("Hello Wambura!"));
 
 app.listen(PORT, () =>
-  console.log(`listening on port: http://localhost:${PORT}`)
+  console.log(`Server running on port: http://localhost:${PORT}`)
 );
